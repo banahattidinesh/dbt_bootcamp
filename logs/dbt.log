@@ -1,0 +1,29 @@
+[0m17:25:32.857440 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F88BEAC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F8AFA83D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F8AFA8160>]}
+
+
+============================== 17:25:32.895439 | 341bf32d-0b69-4c47-a9ce-d883055340c0 ==============================
+[0m17:25:32.895439 [info ] [MainThread]: Running with dbt=1.11.11
+[0m17:25:32.896441 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Dinesh B\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init iecom_analytics', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:25:33.041373 [debug] [MainThread]: Starter project path: C:\Users\Dinesh B\dbt_bootcamp\.venv\lib\site-packages\dbt\include\starter_project
+[0m17:25:33.062453 [info ] [MainThread]: 
+Your new dbt project "iecom_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:25:33.063452 [info ] [MainThread]: Setting up your profile.
+[0m17:37:43.413463 [info ] [MainThread]: Profile iecom_analytics written to C:\Users\Dinesh B\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:37:43.415381 [debug] [MainThread]: Command `dbt init` succeeded at 17:37:43.415381 after 730.73 seconds
+[0m17:37:43.416387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F88BEAC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F89418820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F891B7880>]}
+[0m17:37:43.417381 [debug] [MainThread]: Flushing usage events
+[0m17:37:45.656401 [debug] [MainThread]: An error was encountered while trying to flush usage events
