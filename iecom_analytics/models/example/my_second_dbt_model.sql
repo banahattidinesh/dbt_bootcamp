@@ -1,6 +1,5 @@
-
--- Use the `ref` function to select from other models
-
-select *
-from {{ ref('my_first_dbt_model') }}
-where id = 1
+SELECT 
+    customer_id,
+    customer_name,
+    'Verified' AS account_status
+FROM {{ ref('my_first_dbt_model') }}
