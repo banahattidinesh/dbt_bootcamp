@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: my_raw_data       
+    schema: raw             
+    tables:
+      - name: ipl_raw_stats
