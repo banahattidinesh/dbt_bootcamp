@@ -1,0 +1,6 @@
+match_id,season,team1,team2,toss_winner,toss_decision,winner,win_by_runs
+1,2023,Chennai Super Kings,Gujarat Titans,Chennai Super Kings,field,Chennai Super Kings,5
+2,2023,Mumbai Indians,Lucknow Super Giants,Mumbai Indians,bat,Mumbai Indians,81
+3,2023,Royal Challengers Bangalore,Rajasthan Royals,Rajasthan Royals,field,Royal Challengers Bangalore,112
+4,2023,Delhi Capitals,Punjab Kings,Punjab Kings,field,Punjab Kings,31
+5,2023,Kolkata Knight Riders,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Kolkata Knight Riders,5
